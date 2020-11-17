@@ -1,0 +1,97 @@
+
+body {
+    background-image: url("https://image.freepik.com/free-photo/observation-urban-building-business-steel_1127-2397.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+.full {
+    display: flex;
+}
+.butbody {
+    background-color: #00CED1;
+    position: relative;
+    border-color: black;
+    border: 1px;
+    width: 25%;
+    justify-content: center;
+    padding-top: 0%;
+}
+
+.butt {
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.butt:hover {
+    border-radius: 5px 40% 50px;
+    color: white;
+    background-color: black;
+}
+
+.rowleft {
+    border-radius: 5px;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: 0.4em 0.4em 5px rgb(122, 122, 122);
+    width: 300px;
+    height: 600px;
+}
+
+#bild {
+    width: 200px;
+}
+
+.rowright {
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: 0.4em 0.4em 5px rgb(122, 122, 122);
+    width: 1200px;
+    height: 70px;
+}
+
+.butt1 {
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.butt1:hover {
+    background-color: #FF0000;
+    border-radius: 5px 40% 3px;
+}
+
+#photo {
+    justify-content: center;
+    width: 69px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-left: 259px;
+    margin-top: -9px;
+}
+.serch{
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid;
+    margin-left: 890px;
+    margin-bottom: 50px;
+    width: 216px;
+    height: 38%;
+}
