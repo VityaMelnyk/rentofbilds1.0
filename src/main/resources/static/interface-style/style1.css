@@ -1,0 +1,135 @@
+ body {
+     background-image: url("https://wallpaperaccess.com/full/11207.jpg");
+     background-repeat: no-repeat;
+     width: 100%;
+     height: auto;
+}
+.full {
+    display: block;
+}
+.butbody {
+    background-color: #00CED1;
+    position: relative;
+    border-color: black;
+    border: 1px;
+    width: 25%;
+    justify-content: center;
+    padding-top: 0%;
+}
+/*.nav-line {
+    margin-left: 150px;
+    display: flex; !* Включаем режим Flexbox. *!
+    flex-direction: row; !* Держим элементы в строке *!
+    justify-content: space-between; !* Распределяем элементы внутри шапки *!
+    flex-wrap: wrap;
+    position: center;
+}*/
+/*.butt {
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+}
+.butt:hover {
+    border-radius: 10px 40% 50px;
+    color: white;
+    background-color: darkblue;
+}*/
+ .bn632-hover {
+     width: 160px;
+     font-size: 16px;
+     font-weight: 600;
+     color: #fff;
+     cursor: pointer;
+     margin: 20px;
+     height: 55px;
+     text-align:center;
+     border: none;
+     background-size: 300% 100%;
+     border-radius: 50px;
+     moz-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+     -webkit-transition: all .4s ease-in-out;
+     transition: all .4s ease-in-out;
+ }
+
+ .bn632-hover:hover {
+     background-position: 100% 0;
+     moz-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+     -webkit-transition: all .4s ease-in-out;
+     transition: all .4s ease-in-out;
+ }
+
+ .bn632-hover:focus {
+     outline: none;
+ }
+
+ .bn632-hover.bn26 {
+     background-image: linear-gradient(
+             to right,
+             #25aae1,
+             #4481eb,
+             #04befe,
+             #3f86ed
+     );
+     box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+ }
+.rowleft{
+    border-radius: 10px;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: 0.4em 0.4em 5px rgb(122, 122, 122);
+    width: 280px;
+    height: 480px;
+}
+#bild {
+    width: 150px;
+}
+.border{
+              border-radius: 5px;
+              justify-content: center;
+              align-content: flex-end;
+              padding-left: 10px;
+              padding-right: 10px;
+              padding-top: 10px;
+              box-shadow: 0.4em 0.4em 5px rgb(122, 122, 122);
+              width: 2200px;
+              height: 40px;
+}
+ .buttons{
+     margin-left: 30px;
+     width: 250px;
+     height: 300px;
+ }
+ /*.butt1 {
+     border-radius: 5px;
+     background-color: darkred;
+     color: white;
+     width: 300px;
+     height: 50px;
+     margin-top: 50px;
+ }
+ .butt1:hover {
+     background-color: #FF0000;
+     border-radius: 5px 40% 3px;
+ }*/
+#photo {
+    justify-content: center;
+    width: 69px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-left: 259px;
+    margin-top: -9px;
+}
+body{
+    display: flex;
+}
+.nav-line{
+    justify-content:space-around;
+}
